@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Button from './components/Button'; 
+import Header from './components/Header'
 import data from './constants/data';
 import './App.css';
 import Information from './components/Information';
@@ -8,6 +8,8 @@ class ColorSyncApp extends Component {
   render (){
     return (
       <div className="App">
+              <Header />
+
         { data.information.map((data, key) => {
           const { fullName , career, bio } = data;
             return (
@@ -20,7 +22,6 @@ class ColorSyncApp extends Component {
             )
           })
         }
-        <Button name={'Certification'}/>
       </div>
     )
   }

@@ -1,0 +1,30 @@
+body {
+    background-color: #fff;
+}
+
+.header-main {
+    background: linear-gradient(to right, rgb(10, 10, 32),rgba(0, 0, 0, 0.801));
+    height: 61px;
+}
+                                                                                    
+.container-buttons > a {
+    float: right;
+    text-decoration: none;
+    border:none;
+}
+
+.button_text {
+    display: inline-block;
+    font-size: 15px;
+    padding: 20px;
+    border: none;
+    color: #fff;
+}
+
+.button_text:hover {
+    background-color: rgb(60, 131, 155);
+    transition-duration: 0.6s;
+    cursor: pointer;
+    color: #fff;
+}
+

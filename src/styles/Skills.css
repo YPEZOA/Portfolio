@@ -1,0 +1,38 @@
+.main-container{
+    width: 100%;
+    display: inline-block;
+    height: 400px;
+    background-color: #fff;
+}
+
+.container-skills{
+    display: inline-block;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+.main-container > h1 {
+    background-color: rgb(1, 110, 160);  
+    padding: 15px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.container-skills > a > img:hover {
+    transform: scale(1.2,1.2);
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+
+.container-skills > span {
+    font-size: 13px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.61);
+}

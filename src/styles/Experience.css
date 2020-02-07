@@ -1,0 +1,19 @@
+.main-containerExp h1{
+    background-color: rgb(1, 110, 160);  
+    padding: 15px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.main-containerExp {
+    height: 300px;
+    text-align: left;
+}
+
+.container-exp{
+    display: inline-block;
+}
+

@@ -4,6 +4,8 @@ import './App.css';
 import Information from './components/Information';
 import Header from './components/Header';
 import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Footer from './components/Footer';
 //data
 import data from './constants/data.js'
 
@@ -24,16 +26,20 @@ class ColorSyncApp extends Component {
             );
           })
         }
-        {data.skills.map((data, key) => {
-          const { name, image } = data;
-          console.log(data)
-          return(            
-            <Skills 
-            name={name} 
-            image={image}
-            key={key}/>
-          )
-        })}
+        <Skills/>
+        { data.experience.map((data, key) => {
+          const { job, aboutJob, date } = data;
+            return(
+              <Experience 
+                job={job}
+                aboutJob={aboutJob}
+                date={date}
+                key={key}/>
+                );
+              })
+         }
+         <Footer/>
+         
       </div>)
   }
 }

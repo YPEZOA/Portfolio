@@ -7,7 +7,7 @@ import '../styles/Header.css';
 
 const Header = () => {
         return (
-        <div className="header-main">
+        <div className="header-main navbar-fixed-top">
             {data.dataButtons.map((data, key) => {
                 const { text, url } = data;
                 return(

@@ -1,10 +1,12 @@
 body {
     background-color: #fff;
+    padding-top: 60px;
 }
 
 .header-main {
-    background: linear-gradient(to right, rgb(10, 10, 32),rgba(0, 0, 0, 0.801));
+    background: linear-gradient(to right, rgb(10, 10, 32),rgb(44, 44, 44));
     height: 61px;
+    border-bottom: 2px rgba(1, 110, 160, 0.863) solid;
 }
                                                                                     
 .container-buttons > a {
@@ -17,13 +19,12 @@ body {
     display: inline-block;
     font-size: 15px;
     padding: 20px;
-    border: none;
     color: #fff;
 }
 
 .button_text:hover {
-    background-color: rgb(60, 131, 155);
-    transition-duration: 0.6s;
+    background-color: rgb(1, 110, 160);
+    transition-duration: 0.4s;
     cursor: pointer;
     color: #fff;
 }

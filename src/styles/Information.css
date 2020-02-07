@@ -1,17 +1,16 @@
 .information-container {
-    height: 70vh;
+    height: 95vh;
     background-image: url(../images/informationBackground.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.information-container {
     color: #fff;
     text-align: left;
     font-weight: 100;
 }
 
 .container-content {
+    margin-top: 50px;
+    overflow: hidden;
     color: #fff;
     float: left;
     margin-left: 50px;
@@ -21,4 +20,9 @@
     font-weight: 100;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #cccc;
+}
+
+.container-content  p {
+    font-size: 20px;
+    text-shadow: 3px 4px 2px #000;
 }

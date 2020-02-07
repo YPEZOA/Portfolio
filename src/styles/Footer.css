@@ -1,0 +1,16 @@
+.container-footer {
+    overflow: hidden;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.main-footer {
+    background: linear-gradient(to right, rgb(10, 10, 32),rgb(44, 44, 44));
+    color: #ccc;
+    height: 200px;
+}
+
+.container-footer a img{
+    margin-top: 50px;
+    margin-right: 10px;
+}

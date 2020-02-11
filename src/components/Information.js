@@ -7,7 +7,7 @@ const Information = ({ fullName, career, bio }) => {
         <div className="container-content">
             <h1>Información |</h1>
             <h2>{ fullName }</h2>
-            <h3>{ career }</h3>
+            <h3>{`${career}, Duoc Uc`}</h3>
             <p>{ bio }</p>
         </div>
     </div>)

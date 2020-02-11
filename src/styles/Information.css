@@ -9,7 +9,8 @@
 }
 
 .container-content {
-    margin-top: 50px;
+    width: 40%;
+    margin-top: 40px;
     overflow: hidden;
     color: #fff;
     float: left;
@@ -17,6 +18,7 @@
 }
 
 .container-content > h1 {
+    margin-bottom: 55px;
     font-weight: 100;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #cccc;
@@ -25,4 +27,5 @@
 .container-content  p {
     font-size: 20px;
     text-shadow: 3px 4px 2px #000;
+    margin-top: 20px;
 }

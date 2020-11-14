@@ -3,7 +3,7 @@ const data = {
     information: [{
         fullName: "Yusy Andrés Pezoa Jara",
         career: "Analista programador",
-        bio: "Desarrollador Front-end Junior autodidacta, con capacidad de aprendizaje rápido, en busca de mas conocimiento y nuevos conceptos"
+        bio: "Desarrollador Front-end Junior autodidacta, con capacidad de aprendizaje rápido, en busca de mas conocimiento y desarrollo profesional."
     }],
     dataButtons: [{
             text: 'Certificaciones',

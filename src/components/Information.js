@@ -1,16 +1,17 @@
 import React from 'react';
-import '../styles/Information.css'
+import '../styles/information.css'
+import imageProfile from '../images/anonimous.jpg'
 
 const Information = ({ fullName, career, bio }) => {
     return (
     <div className="information-container">
         <div className="container-content">
-            <h1>Información |</h1>
+            <img className="imageProfile" src={imageProfile} alt="imageProfile"></img>
             <h2>{ fullName }</h2>
-            <h3>{`${career}, Duoc Uc`}</h3>
+            <h3>{`${career} - Duoc Uc`}</h3>
             <p>{ bio }</p>
         </div>
-    </div>)
+    </div>);
 }
 
 Information.displayName = 'Information';

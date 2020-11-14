@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Experience.css';
+import '../styles/experience.css';
 
 const Experience = ({ job, aboutJob, date }) => {
     return(
@@ -10,8 +10,7 @@ const Experience = ({ job, aboutJob, date }) => {
                 <h3>{job}</h3>
                 <p>{aboutJob}</p>
             </div>
-        </div>
-    );
+        </div>);
 }
 
 export default Experience;

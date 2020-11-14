@@ -1,0 +1,24 @@
+.container-scroll {
+    display: flex;
+    position: fixed;
+    bottom: 50px;
+    right: 50%;
+}
+
+.container-scroll > span { 
+    opacity: 80%;
+    border-radius: 100%;
+    color: rgb(109, 109, 109);
+    cursor: pointer;
+    color: #fff;
+    background-color: rgb(82, 160, 160);
+    padding: 5px;
+}
+
+.container-scroll > span:hover {
+    
+}
+
+.hidde {
+    display: none;
+}

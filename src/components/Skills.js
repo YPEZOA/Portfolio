@@ -1,21 +1,22 @@
 import React from 'react';
-import data from '../constants/data';
-import '../styles/Skills.css';
 
-const Skills = () => {
+import '../styles/skills.css';
+
+const Skills = ({ data }) => {
     return (
     <div className="main-container">
         <h1>Conocimientos |</h1>
-            {data.skills.map((data) => {
+
+            {data.skills.map((data, key) => {
                 const { url, name, image, progress } = data;
                 return (
-            <div className="container-skills">
-                <a href={url} target="blank"><img alt="icono" src={image}/></a>
-                <strong><p>{name}</p></strong>
-                <span>{`Progress ${progress}`}</span>
-                </div>)}
-           )}
-        </div>)
+                    <div className="container-skills" key={key}>
+                        <a href={url} target="blank"><img alt="icono" src={image}/></a>
+                        <strong><p>{name}</p></strong>
+                        <span>{`Progreso ${progress}`}</span>
+                    </div>)}
+            )}
+        </div>);
 }
 
 export default Skills;

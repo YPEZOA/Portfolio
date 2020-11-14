@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
 //Components
 import Information from './components/Information';
 import Header from './components/Header';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Footer from './components/Footer';
-//data
+import Scroll from './components/Scroll';
+//data for information about me
 import data from './constants/data.js'
 
-class ColorSyncApp extends Component {
-  render (){
+const ColorSyncApp = () => {
+
     return (
       <div className="App">
-        <Header />
+        <Header data={data}/>
         { data.information.map((data, key) => {
           const { fullName , career, bio } = data;
             return (
@@ -26,7 +26,7 @@ class ColorSyncApp extends Component {
             );
           })
         }
-        <Skills/>
+        <Skills data={data}/>
         { data.experience.map((data, key) => {
           const { job, aboutJob, date } = data;
             return(
@@ -38,10 +38,12 @@ class ColorSyncApp extends Component {
                 );
               })
          }
-         <Footer/>
-         
+         <Footer 
+            data={data}
+         />
+         <Scroll/>
       </div>)
-  }
+
 }
 
 ColorSyncApp.displayName = 'ColorSyncApp';

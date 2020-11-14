@@ -29,3 +29,9 @@
     text-shadow: 3px 4px 2px #000;
     margin-top: 20px;
 }
+
+.imageProfile {
+    width: 220px;
+    height: 220px;
+    border: 1px #fff solid;
+}

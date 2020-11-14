@@ -12,8 +12,9 @@
 }
 
 .main-container > h1 {
-    background-color: rgb(1, 110, 160);  
-    padding: 15px;
+    background-color: rgb(1, 110, 160);
+    padding: 5px;
+    padding-bottom: 10px;
     color: #fff;
     font-weight: 100;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
